@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body{
+        font-family: Century Gothic;
+      }
+      #img{
+        margin: 10px;
+      }
+      img {
+        width: 150px;
+        height: 100px;
+      }
+      #div1{
+      
+        font-size: 25px;
+        padding: 20px;
+      
+      }
+       #text{
+      width: 1000px;
+        height: 50px;
+      }
+      .top {
+        width: 300px;
+        height: 50px;
+      }
+      .right {
+        text-align: ;
+      }
+      #button {
+        height: 40px;
+        width: 180px;
+        background-color:rgb(233,32,43);
+        float: right;
+      }
+      
+      #footer {
+        margin: 150px 0px;
+        height: 30%;
+        padding: 10px 100px;
+      
+      }  
+      #nikhil{
+        display:flex;  
+        width: calc(100% - 70%);
+      }
+      #nick {
+        display: flex;
+        padding: 4%;  
+         }
+ #vacume {
+width: 120px;
+height: 160PX;
+}   
+body{
+  margin: 8px;
+}
+
+</style>
+  </head>
+  <body style="background-color:rgb(255,255,255) ;">
+    <img src="logo.png"/ id="img"><hr>
+    <div id="nikhil">
+      <div id="div1">
+       <h2>Checkout</h2>
+        <strong>shpping Address</strong>
+        <hr /><br>
+        <lable for="email">Email Address*</lable><br />
+        <input type="email" id="text" name="email" />
+        <p>You can create an account after checkout</p>
+        <hr />
+        <label for="first name">First Name*</label><br>
+        <input type="text" id="text" name="first name" />
+        <br><br>
+        <label for="last name">Last Name*</label><br>
+        <input type="text" id="text" name="last name" />
+        <br><br>
+        <label for="company">Company*</label><br>
+        <input type="text" id="text" name="Company" />
+        <br /><br>
+        <label for="Street Address*">Street Address*</label><br>
+        <input type="text" id="text" name="street Address" /> <br> <br><input type="text" id="text" name="street Address" />
+        <br /><br>
+        <label for="city">City*</label><br>
+        <input type="text" id="text" name="City" />
+        <br /><br>
+        <label >State/Province*</label><br>
+        <select id="text">      
+        <option value="country">GUJARAT</option>
+        <option value="country">RAJSTHAN</option>
+        </select>
+        <br /><br>
+        <label>Zip/Postal Code*</label><br>
+        <input type="text" id="text" name="zip/postal code*" />
+        <br /><br>
+        <label >Country*</label><br>
+       <select id="text">      
+        <option value="country">indian</option>
+        <option value="country">USA</option>
+       </select>
+       <br /><br>
+       <label>Phone Number</label><br>
+       <input type="text" id="text" name="phone Number*" /><br><br>
+       <input type="checkbox" /> My Billing And Shipping Address Are Same
+       <br /><br>
+       <strong>Shipping Methods</strong>
+       <hr />
+       <p>Best Way - Table Rate $15.00</p><BR>
+       <!-- this is payment -->
+       <strong>Payment</strong>
+       <hr>
+       <input type="radio" id="=radio" name="case on delavry">Case On Delivery</input><hr>
+       <input type="radio" id="=radio" name="case on delavry">Pay By Paypal</input><hr>
+       <input type="radio" id="=radio" name="case on delavry">Bank Transfer</input><hr>
+       <input type="radio" id="=radio" name="case on delavry">Pay By Card</input><br><br>
+        <label>Name On Card*</label><br>
+       <input type="text" id="text" name="name of card*"/><br><br>
+       <section>
+       <label>Card Number*</label><br>
+       <input type="text" id="text" name="name of card*"/>
+       <br><br>
+       <label for="date">Expiration Date*</label><br>
+       <select name="date" class="top" >
+        <option value="month">jan</option>
+        <option value="month">feb</option>
+        </select>
+        <select name="date" class="top">
+        <option value="montha">2001</option>
+        <option value="montha">2002</option>
+        </select>
+        <label>
+         <label for="cvv/cvc" class="right">cvv/cvc*
+          <input type="number" value="cvv/cvc" name="cvv/cvc" class="top">
+        </label><br></section>
+        <br><br>
+        <!-- this is button -->
+        <input type="button" value="pleas order" name="submit"  id="button">
+       </labal>
+      </div>
+       <!-- this is part 2 -->
+      <div style="background-color: rgb(247,247,247);" id="footer">
+       <strong>Order summary</strong><hr>
+       <div id="nick">
+       <section>
+       <img src="vacume.png" id="vacume"></section>
+       <section>
+       <strong style="padding: 10px;" >Burnishers     $2672.00</strong><BR>
+       <strong style="padding: 10px;">Qty:  1</strong><BR>
+       <strong style="padding: 10px;">Color: Yellow</strong></section>
+       </div>
+       <hr>
+       <P>Cart Subtotal            $2670.00</P>
+       <p>Shipping flat Rate-Fixed $5.00</p><hr>
+       <strong>Order Total $2675.00</strong>
+      </div>
+   </div >
+  </body>
+</html>
